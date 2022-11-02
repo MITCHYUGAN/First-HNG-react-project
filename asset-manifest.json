@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/First-HNG-react-project/static/css/main.b746a97b.css",
+    "main.js": "/First-HNG-react-project/static/js/main.6a05c2db.js",
+    "static/js/787.d3befce1.chunk.js": "/First-HNG-react-project/static/js/787.d3befce1.chunk.js",
+    "static/media/Image.jpg": "/First-HNG-react-project/static/media/Image.4b1b3a741b1b23d01cd6.jpg",
+    "index.html": "/First-HNG-react-project/index.html",
+    "main.b746a97b.css.map": "/First-HNG-react-project/static/css/main.b746a97b.css.map",
+    "main.6a05c2db.js.map": "/First-HNG-react-project/static/js/main.6a05c2db.js.map",
+    "787.d3befce1.chunk.js.map": "/First-HNG-react-project/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b746a97b.css",
+    "static/js/main.6a05c2db.js"
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/First-HNG-react-project/static/css/main.82a4ae78.css",
+    "main.css": "/First-HNG-react-project/static/css/main.fd9dc4a3.css",
     "main.js": "/First-HNG-react-project/static/js/main.4d9ebf47.js",
     "static/media/Image.jpg": "/First-HNG-react-project/static/media/Image.4b1b3a741b1b23d01cd6.jpg",
     "index.html": "/First-HNG-react-project/index.html",
-    "main.82a4ae78.css.map": "/First-HNG-react-project/static/css/main.82a4ae78.css.map",
+    "main.fd9dc4a3.css.map": "/First-HNG-react-project/static/css/main.fd9dc4a3.css.map",
     "main.4d9ebf47.js.map": "/First-HNG-react-project/static/js/main.4d9ebf47.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a4ae78.css",
+    "static/css/main.fd9dc4a3.css",
     "static/js/main.4d9ebf47.js"
   ]
 }

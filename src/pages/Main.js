@@ -34,8 +34,8 @@ const Main = () => {
                     <a href="https://books.zuri.team/design-rules" target="_blank" className="link" id="book__design">
                         Design Books
                     </a>
-                    <li className="link" id='contact'>
-                        <Link to ='/First-HNG-react-project/contact' className='contact_text'> Contact </Link>
+                    <li className="link">
+                        <Link id='contact'to ='/First-HNG-react-project/contact' className='contact_text'> Contact </Link>
                     </li>
                     {/* <a href="/Contactme" target="_blank" className="link" id="book__design">
                         Contact Me

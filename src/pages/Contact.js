@@ -1,10 +1,24 @@
+import { useState } from 'react'
+import Modal from './Modal.js'
+
 let name = "Mitchyugan"
-const Contact = () => {
+const Cont = () => {
+    // OPENING MODAL FUNCTION
+    const [openModal, openModalActive] = useState(false)
+
+    const handleSubmit = event => {
+        // 👇️ prevent page refresh
+        event.preventDefault();
+    
+        console.log('form submitted ✅');
+      };
+
+
     return (
         <section className="contact_container">
             <h1 className="contact_headingtext">Contact Me</h1>
             <p className="welcome_text">Hi there, contact me to ask me about anything you have in mind.</p>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div className="first_name">
                     <label>First name</label>
                     <input id="first_name" name='firstName' type="text" placeholder="Enter your first name"/>
@@ -26,14 +40,15 @@ const Contact = () => {
                     <input type="checkbox" name="" id="checkbox" />
                     You agree to providing your data to {name} who may contact you.
                 </div>
-                <button id="btn__submit">
+                <button id="btn__submit" onClick={() => { openModalActive(true) }}>
                     Send message
                 </button>
             </form>
+            {openModal && <Modal closeModal={openModalActive} />}
         </section>
     )
 }
 
 
 
-export default Contact
+export default Cont

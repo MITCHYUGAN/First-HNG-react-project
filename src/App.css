@@ -188,6 +188,10 @@ input:focus-visible , textarea:focus-visible{
   grid-column: span 2;
 }
 
+label{
+  color: #344054;
+}
+
 .checkbox{
   grid-column: span 2;
   display: flex;
@@ -228,6 +232,10 @@ input#checkbox{
 
 .bordererrors:focus{
   border-color: red;
+}
+
+input:focus{
+  border-color: #84CAFF;
 }
 
 
